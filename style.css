@@ -87,6 +87,12 @@ body {
     text-align: center;
   }
   
+  .next-header{
+    background-color:#ffb616;
+    padding: 10px 40px;
+    color: white;
+    text-align: center;
+  }
   /* Clear floats after the header */
   .header:after {
     content: "";
