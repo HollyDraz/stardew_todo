@@ -3,6 +3,11 @@ body {
     min-width: 250px;
     background-image: url("stardew_background.png");
   }
+
+p {
+    color: #F9F9F9;
+}
+
   table.customTable {
     width: 100%;
     background-color: #E19D1D;
