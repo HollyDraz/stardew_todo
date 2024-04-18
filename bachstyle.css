@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    min-width: 250px;
+    background-image: url("stardew_background.png");
+  }
+  table.customTable {
+    width: 100%;
+    background-color: #E19D1D;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #000000;
+    border-style: solid;
+    color: #F9F9F9;
+  }
+  
+  table.customTable td, table.customTable th {
+    border-width: 2px;
+    border-color: #000000;
+    border-style: solid;
+    padding: 5px;
+  }
+  
+  table.customTable thead {
+    background-color: #007B1D;
+  }
+  
