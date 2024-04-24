@@ -1,0 +1,12 @@
+{
+  "name": "stardew_todo",
+  "version": "1.0.0",
+  "description": "resources used:  w3 schools Generated at CSSPortal.com StardewValley.wiki",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "deploy": "touch ./output_folder/.nojekyll && gh-pages -d output_folder -t true"
+}
