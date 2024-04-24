@@ -1,28 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" href="style.css">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
 
-<div id="myDIV" class="header">
-  <h2 style="margin:5px">My To Do List</h2>
-  <input type="text" id="myInput" placeholder="Title...">
-  <span onclick="newElement()" class="addBtn">Add</span>
-</div>
-
-<div id="next-page" class="next-header">
-  <h2> <a href="characters.html">Go to the next page</a> </h2>
-</div>
-
-<ul id="myUL">
-  <li>Check Crops</li>
-  <li>Enter Mines</li>
-  <li>Check Animals</li>
-</ul>
-
-<script>
 // Create a "close" button and append it to each list item
 var myNodelist = document.getElementsByTagName("LI");
 var i;
@@ -78,7 +54,3 @@ function newElement() {
     }
   }
 }
-</script>
-
-</body>
-</html>
