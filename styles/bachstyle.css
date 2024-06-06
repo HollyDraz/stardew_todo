@@ -1,8 +1,10 @@
 body {
     margin: 0;
     min-width: 250px;
-    background-image: url('../images/stardew_background.png');
+    /* background-image: url('../images/stardew_background.png'); */
+    background-color: blue;
   }
+
 
 p {
     color: #F9F9F9;
