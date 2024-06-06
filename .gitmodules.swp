@@ -1,6 +1,0 @@
-[submodule "themes/hugo-creative-theme"]
-    path = themes/hugo-creative-theme
-    url = https://github.com/HollyDraz/stardew_todo
-[submodule "themes/dot-org-hugo-theme"]
-    path = themes/dot-org-hugo-theme
-    url = https://github.com/HollyDraz/stardew_todo
