@@ -1,6 +1,5 @@
 [build]
-  publish = "public"  # Your public directory where the build output is placed
-  command = "npm run build"  
+  publish = "public"  
   [[headers]]
     for = "/styles/*"
     [headers.values]
