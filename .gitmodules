@@ -1,0 +1,3 @@
+[submodule "stardew_todo"]
+  path = stardew_todo
+  url = https://github.com/HollyDraz/stardew_todo
