@@ -9,11 +9,13 @@ Stardew is an incredible game createdby Concern Ape that involes the user becomg
 
 ## Roadmap
 
-- Fix the styling bug on website that can cause the website to break
+- Fix the styling issue when css is not applied 
+
+- add feature to save new checklist items when added and don't leave when page refresh occurs 
 
 - Add checklist for itesm to give the bachelors
 
-- Add item diecriptions for bachelor items 
+- 
 
 # Resources used: 
 
