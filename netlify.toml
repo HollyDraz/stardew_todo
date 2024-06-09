@@ -1,6 +1,7 @@
 [build]
-  publish = "public"  
-  [[headers]]
-    for = "/styles/*"
-    [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
+  publish = "public"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+  Cache-Control = "public, max-age=31536000, immutable"
