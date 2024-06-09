@@ -2,7 +2,7 @@ body {
     margin: 0;
     min-width: 250px;
     background-image: url('/public/images/stardew_background.png'); 
-    /* background-color: blue; */
+    background-color: blue; 
   }
 
 
