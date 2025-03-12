@@ -1,9 +1,11 @@
 {
   "name": "stardew_todo",
   "version": "1.0.0",
-  "description": "Stardew is an incredible game createdby Concern Ape that involes the user becomgn a farmer. I've put an embrassing amount of hours in this game and one thing I always need when I play is a todo list for the things i need to forage and do for my farm. So after feeling inspired by the newest update I decided to create that todo app.  ## Demo",
+  "description": "Stardew is an incredible game created by Concern Ape that involves the user becoming a farmer. I've put an embarrassing amount of hours into this game, and one thing I always need when I play is a to-do list for the things I need to forage and do for my farm. So after feeling inspired by the newest update, I decided to create that to-do app. ## Demo",
   "main": "index.js",
   "scripts": {
+    "start": "webpack serve --mode development",  // Start the development server
+    "build": "webpack --mode production",        // Build the app for production
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,8 +20,8 @@
   },
   "homepage": "https://github.com/HollyDraz/stardew_todo#readme",
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react": "^18.2.0",            // React version 18
+    "react-dom": "^18.2.0"         // React DOM version 18
   },
   "devDependencies": {
     "@babel/core": "^7.26.10",
@@ -29,6 +31,8 @@
     "html-webpack-plugin": "^5.6.3",
     "webpack": "^5.98.0",
     "webpack-cli": "^6.0.1",
-    "webpack-dev-server": "^5.2.0"
+    "webpack-dev-server": "^5.2.0",
+    "css-loader": "^6.5.1",            // CSS loader to handle styles
+    "style-loader": "^3.3.1"           // Style loader to inject CSS into React components
   }
 }
