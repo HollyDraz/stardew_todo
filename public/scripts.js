@@ -53,15 +53,16 @@ function saveItems() {
   var listItems = [];
   document.querySelectorAll("#myUL li").forEach(li => {
     listItems.push({
-      value: li.textContent.replace("\u00D7", "").trim(),
+      value: li.firstChild.nodeValue.trim(),
       isChecked: li.classList.contains('checked')
     });
   });
   localStorage.setItem("items", JSON.stringify(listItems));
 }
 
-// Load list items from localStorage
+// Load list items from localStorage (clear existing ones first)
 function loadItems() {
+  document.getElementById("myUL").innerHTML = ""; // ✅ Clear existing list to avoid duplicates
   var items = JSON.parse(localStorage.getItem("items")) || [];
   items.forEach(item => addItem(item.value, item.isChecked));
 }
